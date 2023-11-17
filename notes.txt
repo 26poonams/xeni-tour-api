@@ -1,0 +1,76 @@
+Booking App
+
+
+User:  -> signup, login, forgetPassword, updateuser Details
+
+Name,
+Password,
+Email,
+createdAt,
+updatedAt,
+
+
+Tours  ->. Create, edit, delete, read
+
+Name,
+slug,
+duration,
+maxGroupSize
+ratingsAverage
+price,
+description, 
+Image
+userId
+
+Reviews: -> create review, delete review and update review, read review
+
+review
+rating
+userId
+tourId
+
+
+Booking -> create booking
+
+tourId,
+userId,
+Price,
+
+
+
+https://stripe.com/docs/api/payment_methods/create -> pm_
+https://stripe.com/docs/api/payment_intents/create -> PI_
+https://stripe.com/docs/api/payment_intents/confirm
+
+
+https://mongoosejs.com/docs/
+
+
+userRouter
+ 1. Sign up => /signup, Joi, controller
+2. signIn,
+3. Forget-password =
+4. Verify-password -> 
+5. updateUser details, /update-user, join, isLoggedIn, controller
+
+
+tourRouter
+
+ReviewRouter
+
+bookingRouter
+
+
+
+user authentication->
+signup, bcrypts, jwt
+login, bcrypts, jwt
+update, delete (after login)
+forget password
+
+
+1.joi validation 
+3.payment
+6.booking
+
+sk_test_PoYnFX3hEP3vXKuNdTTU34nH
